@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:url("../history bg.avif");
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.historic-header{
+    text-align: center;
+    padding:60px 20px 35px;
+    color:rgb(221, 225, 207);
+    animation:headingAppear 1.2s ease;
+}
+.historic-header h1{
+    font-size: 45px;
+    letter-spacing: 4px;
+    margin-bottom: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.historic-header p{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+}
+.historic-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+    padding:20px 50px 60px;
+}
+.historic-cards{
+    width:300px;
+    background:white;
+    border-radius: 20px;
+    overflow:hidden;
+    box-shadow: 0 8px 25px rgb(247, 246, 245);
+    transition: 0.4s ease;
+   
+}
+
+.historic-cards:hover{
+    transform:translateY(-15px);
+    box-shadow: 0 15px 35px rgb(246, 246, 8);
+}
+.historic-cards img{
+    width:100%;
+    height:220px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+.historic-cards img:hover{
+    transform:scale(1.15);
+}
+.historic-content{
+    padding:20px;
+}
+.historic-content h2{
+    font-size: 25px;
+    margin-bottom: 8px;
+    font-family: cursive;
+    color:rgb(72, 1, 138);
+}
+.location{
+    font-size: 25px;
+    margin-bottom: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.historic-content p{
+    line-height: 1.5;
+}
+.historic-content h3{
+    margin:15px 0;
+    color:rgb(61, 33, 7);
+}
+.explore-btn{
+    border:2px solid white;
+    border-radius: 30px;
+    margin-top: 10px;
+    color:white;
+    background: rgb(30, 30, 232);
+    font-size: 16px;
+    padding: 10px 25px;
+}
+.explore-btn:hover{
+    background:skyblue;
+    box-shadow: 0 10px 25px rgb(2, 201, 241);
+}
