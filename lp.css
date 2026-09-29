@@ -28,7 +28,7 @@ nav button:hover {
 }
 .home{
      margin:0;
-     background-image:url("../flight bg.jpg");
+     background-image:url("pictures/flight bg.jpg");
      background-size: cover;
      background-position: center;
      background-repeat: no repeat;
@@ -83,7 +83,7 @@ nav button:hover {
 /* about us */
 .about{
     text-align: center;
-    background-image:url("../blue.jpg");
+    background-image:url("pictures/blue.jpg");
     padding:60px 20px;
     animation: backgroundZoom 2s ease-in-out infinite alternate;
 }
@@ -182,7 +182,7 @@ nav button:hover {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    background-image:url("../login page bg.jpg");
+    background-image:url("pictures/login page bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -240,7 +240,7 @@ nav button:hover {
 .contact{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
-    background-image:url("../contact bg.jpg") ;
+    background-image:url("pictures/contact bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -356,7 +356,7 @@ nav button:hover {
     text-align: center;
     padding:70px 30px;
      margin:0;
-     background-image:url("../flight bg.jpg");
+     background-image:url("pictures/flight bg.jpg");
      background-size: cover;
      background-position: center;
      background-repeat: no repeat;
